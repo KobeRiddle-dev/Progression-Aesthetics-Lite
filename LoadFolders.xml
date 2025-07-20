@@ -37,7 +37,6 @@
     <li IfModActive="cixwow.vfespaceraddon">1.6/Mods and Shit/VFE Spacer Addon</li>
     <li IfModActive="lmgginspace.repairbed">1.6/Mods and Shit/Repair Bed</li>
     <li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mods and Shit/VE Furniture Additional Pack</li>
-    <li IfModActive="dsp.lun">1.6/Mods and Shit/Diner Supplies</li>
     <li IfModActive="mingtuwuxiang.spacebasedecorative">1.6/Mods and Shit/MUS SpaceBase</li>
   </v1.6>
 </loadFolders>
