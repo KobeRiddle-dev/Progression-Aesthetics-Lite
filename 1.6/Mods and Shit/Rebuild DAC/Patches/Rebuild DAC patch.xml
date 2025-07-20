@@ -44,7 +44,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="VFEArch_CellDoor"]/researchPrerequisites</xpath>
+                    <xpath>Defs/ThingDef[defName="RB_CellDoor"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
                             <li>Ferny_PrisonArchitecture</li>
