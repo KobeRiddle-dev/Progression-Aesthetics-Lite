@@ -5,8 +5,6 @@
     <li IfModActive="3hstltd.signs">1.6/Mods and Shit/Bill Signs</li>
     <li IfModActive="biomesteam.biomesfossils">1.6/Mods and Shit/Biomes Fossils</li>
     <li IfModActive="dankpyon.medieval.overhaul">1.6/Mods and Shit/Medieval Overhaul</li>
-    <li IfModActive="mingtuwuxiang.fishingdecorative">1.6/Mods and Shit/MUS Fishing</li>
-    <li IfModActive="mingtuwuxiang.gothicdecorative">1.6/Mods and Shit/MUS Gothic</li>
     <li IfModActive="kongkim.panelsframes">1.6/Mods and Shit/Panels and Frames</li>
     <li IfModActive="gomi.simplestairs">1.6/Mods and Shit/Simple Stairs</li>
     <li IfModActive="VanillaExpanded.VFECore">1.6/Mods and Shit/VE Furniture</li>
@@ -36,6 +34,5 @@
     <li IfModActive="cixwow.vfespaceraddon">1.6/Mods and Shit/VFE Spacer Addon</li>
     <li IfModActive="lmgginspace.repairbed">1.6/Mods and Shit/Repair Bed</li>
     <li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mods and Shit/VE Furniture Additional Pack</li>
-    <li IfModActive="mingtuwuxiang.spacebasedecorative">1.6/Mods and Shit/MUS SpaceBase</li>
   </v1.6>
 </loadFolders>
