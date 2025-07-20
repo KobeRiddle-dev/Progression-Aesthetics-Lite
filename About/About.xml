@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Progression: Aesthetics</name>
-	<author>ferny</author>
-	<packageId>ferny.progressionaesthetics</packageId>
+	<name>Progression: Aesthetics Lite</name>
+	<author>Kobe Riddle, ferny</author>
+	<packageId>KobeRiddle.ProgressionAestheticsLite</packageId>
 	<supportedVersions>
-		<li>1.4</li>
-		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
 	<modDependencies>
-		<li>
-			<packageId>VanillaExpanded.VFEPropsandDecor</packageId>
-			<displayName>Vanilla Furniture Expanded - Props and Decor</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2102143149</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>ferny.propscore</packageId>
-			<displayName>More Prop Categories</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/3167021055</steamWorkshopUrl>
-		</li>
 		<li>
 			<packageId>Ludeon.Rimworld.Ideology</packageId>
 			<displayName>Ideology</displayName>
@@ -29,57 +17,39 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/3417393194</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<description>Integrates decoration mods into Vanilla progression.</description>
+	<description>Integrates furniture mods into Vanilla progression.\n\nNow made lite by Kobe Riddle, without any dependence on prop mods.\n\nProp mods are obviously not supported by this mod.
+	</description>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
 		<li>Ludeon.Rimworld.Royalty</li>
 		<li>Ludeon.Rimworld.Ideology</li>
 		<li>Ludeon.Rimworld.Biotech</li>
 		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Ludeon.Rimworld.Odyssey</li>
+
 		<li>imranfish.xmlextensions</li>
-		<li>mingtuwuxiang.fishingdecorative</li>
-		<li>gomi.simplestairs</li>
-		<li>kongkim.panelsframes</li>
-		<li>oracle.miscellania</li>
 		<li>dankpyon.medieval.overhaul</li>
 		<li>biomesteam.biomesfossils</li>
-		<li>mlie.amnabisflags</li>
 		<li>shork.torpedo.architecture</li>
 		<li>3hstltd.signs</li>
 		<li>VanillaExpanded.VFECore</li>
 		<li>VanillaExpanded.VFESpacer</li>
 		<li>Dark.Signs</li>
-		<li>ferny.propscore</li>
 		<li>ReGrowth.BOTR.Core</li>
 		<li>anthitei.athsstylegothic.style</li>
 		<li>eeg.architecture</li>
 		<li>Inggo.AdvancedPolyBeds</li>
-		<li>mewn.extra.signs</li>
 		<li>dark.signs</li>
-		<li>oracle.miscellania</li>
-		<li>vanillaexpanded.vgeneticse</li>
-		<li>xmb.ancienturbanruins.mo</li>
-		<li>sarg.alphapropsparks</li>
 		<li>zylle.clocks</li>
 		<li>rebuild.cotr.doorsandcorners</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
-		<li>Van.DACrypts</li>
-		<li>lunartika.os</li>
-		<li>shp.rus</li>
 		<li>vanillaexpanded.vfeart</li>
 		<li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
 		<li>Scurvyez.StevesWalls</li>
 		<li>scurvyez.stevesdoors</li>
-		<li>DSP.HalituisAmaricanous</li>
 		<li>rimsenal.Sophian</li>
 		<li>vanillaexpanded.ideo.sophianstyle</li>
 		<li>sarg.alphamemes</li>
 		<li>rimsenal.techist</li>
-  		<li>finch.blood</li>
-		<li>addie.housevanilla</li>
-		<li>sierra.rf.housedoyle</li>
-		<li>mingtuwuxiang.gothicdecorative</li>
-		<li>dsp.lun</li>
-		<li>mingtuwuxiang.spacebasedecorative</li>
 	</loadAfter>
 </ModMetaData>
