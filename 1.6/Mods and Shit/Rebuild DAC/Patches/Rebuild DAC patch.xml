@@ -56,7 +56,7 @@
         </match>
     </Operation>
 
-
+    <!-- Rename Rustic Wall -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="RB_RusticWall"]/label</xpath>
         <value>

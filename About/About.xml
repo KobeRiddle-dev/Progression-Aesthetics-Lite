@@ -43,6 +43,18 @@
 		<li>zylle.clocks</li>
 		<li>rebuild.cotr.doorsandcorners</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>mewn.extra.signs</li>
+		<li>dark.signs</li>
+		<li>oracle.miscellania</li>
+		<li>vanillaexpanded.vgeneticse</li>
+		<li>xmb.ancienturbanruins.mo</li>
+		<li>sarg.alphapropsparks</li>
+		<li>zylle.clocks</li>
+		<li>rebuild.cotr.doorsandcorners</li>
+		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>Van.DACrypts</li>
+		<li>lunartika.os</li>
+		<li>shp.rus</li>
 		<li>vanillaexpanded.vfeart</li>
 		<li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
 		<li>Scurvyez.StevesWalls</li>
@@ -51,5 +63,6 @@
 		<li>vanillaexpanded.ideo.sophianstyle</li>
 		<li>sarg.alphamemes</li>
 		<li>rimsenal.techist</li>
+		<li>nightmare.museums</li>
 	</loadAfter>
 </ModMetaData>
