@@ -4,7 +4,6 @@
 <!-- new shit, renaming the stuff -->
 
     <Operation Class="PatchOperationReplace">
-        <success>Always</success>
         <xpath>Defs/ThingDef[defName="DoorFrameX1Seamlessly"]/label</xpath>
         <value>
             <label>angular door frame</label>
@@ -12,8 +11,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <success>Always</success>
-        <xpath>Defs/ThingDef[defName="DoorFrameX2Old"]/label</xpath>
+        <success>Always</success>ame="DoorFrameX2Old"]/label</xpath>
         <value>
             <label>large door frame</label>
         </value>
@@ -21,8 +19,7 @@
 
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
-        <xpath>Defs/ThingDef[defName="DoorFrameX1Old"]/label</xpath>
-        <value>
+        <xpath>Defs/ThingDef[defName="DoorFram
             <label>door frame</label>
         </value>
     </Operation>
@@ -30,8 +27,7 @@
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="KK_DoorPanels"]/label</xpath>
-        <value>
-            <label>door panel</label>
+        <value>bel>
         </value>
     </Operation>
 
@@ -40,7 +36,6 @@
         <xpath>Defs/ThingDef[defName="KK_DoorCenterPanel"]/label</xpath>
         <value>
             <label>door panel</label>
-        </value>
     </Operation>
 
 
@@ -50,7 +45,6 @@
         <value>
             <label>straight panel</label>
         </value>
-    </Operation>
 
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
@@ -59,7 +53,6 @@
             <label>corner panel</label>
         </value>
     </Operation>
-
 
 
 

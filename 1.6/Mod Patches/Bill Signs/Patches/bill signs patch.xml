@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+  <!-- TODO: Move to a combo patch -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Signs and Comments</li>
@@ -9,7 +10,6 @@
     <operations>
 
       <li Class="PatchOperationAdd">
-        <success>Always</success>
         <xpath>/Defs/ThingDef[@Name="BDsSignBase"]</xpath>
         <value>
           <drawGUIOverlay>true</drawGUIOverlay>
@@ -44,7 +44,6 @@
       </li>
 
       <li Class="PatchOperationAdd">
-        <success>Always</success>
         <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]</xpath>
         <value>
           <drawGUIOverlay>true</drawGUIOverlay>
@@ -52,7 +51,6 @@
       </li>
 
       <li Class="PatchOperationReplace">
-        <success>Always</success>
         <xpath>Defs/ThingDef[@Name="BDsSignLargeBase"]/designationCategory</xpath>
         <value>
           <designationCategory>Misc</designationCategory>
@@ -91,6 +89,7 @@
 		</match>
 	</Operation>
 
+  <!-- Move to misc -->
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ThingDef[@Name="BDsSignBase"]/designationCategory</xpath>
