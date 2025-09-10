@@ -27,7 +27,7 @@
                             <description>Begin building structures that can keep prisoners contained.</description>
                             <baseCost>500</baseCost>
                             <techLevel>Medieval</techLevel>
-                            <researchViewX>1.00</researchViewX>
+                            <researchViewX>2.00</researchViewX>
                             <researchViewY>2.00</researchViewY>
                             <prerequisites>
                                 <li>Smithing</li>
