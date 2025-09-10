@@ -25,7 +25,7 @@
     <operations>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignA"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -47,7 +47,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignA"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">
@@ -60,7 +60,7 @@
 </li>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignB"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -82,7 +82,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignB"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">
@@ -95,7 +95,7 @@
 </li>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignC"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -117,7 +117,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignC"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">
@@ -130,7 +130,7 @@
 </li>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignD"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -152,7 +152,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignD"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">
@@ -165,7 +165,7 @@
 </li>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignE"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -187,7 +187,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignE"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">
@@ -200,7 +200,7 @@
 </li>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignF"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -222,7 +222,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignF"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">
@@ -235,7 +235,7 @@
 </li>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignG"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -257,7 +257,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignG"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">
@@ -270,7 +270,7 @@
 </li>
 
 <li Class="PatchOperationAdd">
-  <success>Always</success>
+  
   <xpath>/Defs/ThingDef[defName="VFEPD_SignH"]</xpath>
   <value>
     <drawGUIOverlay>true</drawGUIOverlay>
@@ -292,7 +292,7 @@
     </value>
   </nomatch>
   <match Class="PatchOperationAdd">
-    <success>Always</success>
+    
     <xpath>/Defs/ThingDef[defName="VFEPD_SignH"]/comps</xpath>
     <value>
       <li Class="Dark.Signs.CompProperties_Sign">

@@ -60,7 +60,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationAdd">
-                    <success>Always</success>
+                    
                     <xpath>/Defs/ThingDef[@Name="BDsSignBase"]</xpath>
                     <value>
                         <drawGUIOverlay>true</drawGUIOverlay>
@@ -96,7 +96,7 @@
                         </value>
                     </nomatch>
                     <match Class="PatchOperationAdd">
-                        <success>Always</success>
+                        
                         <xpath>/Defs/ThingDef[@Name="DankPyon_SignBase"]/comps</xpath>
                         <value>
                             <li Class="Dark.Signs.CompProperties_Sign">
@@ -108,7 +108,7 @@
                     </match>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <success>Always</success>
+                    
                     <xpath>/Defs/ThingDef[@Name="DankPyon_SignBase"]</xpath>
                     <value>
                         <drawGUIOverlay>true</drawGUIOverlay>
@@ -441,7 +441,9 @@
             </value>
         </nomatch>
     </Operation>
-    <Operation Class="PatchOperationReplace">ame="DankPyon_RoyalBookshelf"]/label</xpath>
+    <Operation Class="PatchOperationReplace">
+        
+        <xpath>Defs/ThingDef[defName="DankPyon_RoyalBookshelf"]/label</xpath>
         <value>
             <label>royal research shelf</label>
         </value>
@@ -462,7 +464,9 @@
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="DankPyo
+        
+        <xpath>Defs/ThingDef[defName="DankPyon_RusticBookshelf"]/label</xpath>
+        <value>
             <label>research shelf</label>
         </value>
     </Operation>
@@ -526,8 +530,11 @@
             </value>
         </nomatch>
     </Operation>
-    <Operation Class="PatchOperationReplace">ame="DankPyon_RusticBookshelf1x2c"]/label</xpath>
-        <value> shelf</label>
+    <Operation Class="PatchOperationReplace">
+        
+        <xpath>Defs/ThingDef[defName="DankPyon_RusticBookshelf1x2c"]/label</xpath>
+        <value>
+            <label>large research shelf</label>
         </value>
     </Operation>
     <Operation Class="PatchOperationConditional">
@@ -936,39 +943,63 @@
         </nomatch>
     </Operation>
     <!-- RENAME SHIT -->
-    <Operation Class="PatchOperationReplace">ame="DankPyon_Bed_Rustic_Red"]/label</xpath>
+    <Operation Class="PatchOperationReplace">
+        
+        <xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Red"]/label</xpath>
         <value>
             <label>comfy red bed</label>
+        </value>
     </Operation>
-    <Operation Class="PatchOperationReplace">ame="DankPyo
+    <Operation Class="PatchOperationReplace">
+        
+        <xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Green"]/label</xpath>
+        <value>
             <label>comfy green bed</label>
         </value>
     </Operation>
-    <Operation Class="PatchOperationReplace">ame="DankPyo
+    <Operation Class="PatchOperationReplace">
+        
+        <xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Blue"]/label</xpath>
+        <value>
+            <label>comfy blue bed</label>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="DankPyo
+        
+        <xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Red"]/label</xpath>
+        <value>
+            <label>comfy red double bed</label>
+        </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
+        
         <xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Green"]/label</xpath>
-        <value>uble bed</la
+        <value>
+            <label>comfy green double bed</label>
+        </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
+        
         <xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Blue"]/label</xpath>
         <value>
-            <label>comfy blue double bed</lab
+            <label>comfy blue double bed</label>
+        </value>
+    </Operation>
     <Operation Class="PatchOperationReplace">
+        
         <xpath>Defs/ThingDef[defName="DankPyon_HideTentWall"]/label</xpath>
         <value>
             <label>patchwall</label>
         </value>
+    </Operation>
     <Operation Class="PatchOperationReplace">
+        
         <xpath>Defs/ThingDef[defName="DankPyon_RusticTorchLamp"]/label</xpath>
         <value>
             <label>standing torch</label>
         </value>
     </Operation>
+
     <!-- ROYAL ARMCHAIR NOW WITH GOLD -->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="DankPyon_RoyalArmchair"]</xpath>
@@ -1003,7 +1034,7 @@
             <operations>
                 <!-- ROYAL FURNITURE -->
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalArmchair"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1012,7 +1043,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalDresser"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1021,7 +1052,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalEndTable"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1030,7 +1061,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalTudorBed"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1039,7 +1070,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1048,7 +1079,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1057,7 +1088,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalArmchair"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1066,7 +1097,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalBookshelf"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1075,7 +1106,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalCloset"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1084,7 +1115,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_RoyalThrone"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1093,12 +1124,12 @@
                     </value>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ResearchProjectDef[defName="DankPyon_RoyalRusticFurniture"]</xpath>
                 </li>
                 <!-- BASIC FURNITURE/RUSTIC FURNITURE -->
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="Bed_Simple"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1107,7 +1138,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="Seat_Bench"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1116,7 +1147,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="Table_1x1c"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
@@ -1125,7 +1156,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ResearchProjectDef[defName="MF_BasicFurniture"]</xpath>
                 </li>
             </operations>
@@ -1325,10 +1356,10 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationConditional">
-                    <success>Always</success>
+                    
                     <xpath>/Defs/StyleCategoryDef[defName = "Ferny_OldWorld"]/thingDefStyles</xpath>
                     <match Class="PatchOperationAdd">
-                        <success>Always</success>
+                        
                         <xpath>/Defs/StyleCategoryDef[defName = "Ferny_OldWorld"]/thingDefStyles</xpath>
                         <value>
                             <li>
@@ -1342,12 +1373,14 @@
         </match>
     </Operation>
     <Operation Class="PatchOperationConditional">
+        
         <xpath>/Defs/ThingDef[defName = "EndTable"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
         <nomatch Class="PatchOperationConditional">
-            <success>Always</success>
+            
             <xpath>/Defs/ThingDef[defName = "EndTable"]/comps</xpath>
             <nomatch Class="PatchOperationAdd">
-                <success>Always</success>gDef[defName = "EndTable"]</xpath>
+                
+                <xpath>/Defs/ThingDef[defName = "EndTable"]</xpath>
                 <value>
                     <comps>
                         <li Class="CompProperties_Styleable" />
@@ -1355,7 +1388,7 @@
                 </value>
             </nomatch>
             <match Class="PatchOperationAdd">
-                <success>Always</success>
+                
                 <xpath>/Defs/ThingDef[defName = "EndTable"]/comps</xpath>
                 <value>
                     <li Class="CompProperties_Styleable" />
@@ -1364,9 +1397,10 @@
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationConditional">
+        
         <xpath>/Defs/ThingDef[defName = "Dresser"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
         <nomatch Class="PatchOperationConditional">
-            <success>Always</success>
+            
             <xpath>/Defs/ThingDef[defName = "Dresser"]/comps</xpath>
             <nomatch Class="PatchOperationAdd">
                 <xpath>/Defs/ThingDef[defName = "Dresser"]</xpath>
@@ -1385,9 +1419,10 @@
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationConditional">
+        
         <xpath>/Defs/ThingDef[defName = "Door"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
         <nomatch Class="PatchOperationConditional">
-            <success>Always</success>
+            
             <xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
             <nomatch Class="PatchOperationAdd">
                 <xpath>/Defs/ThingDef[defName = "Door"]</xpath>
@@ -1406,6 +1441,7 @@
         </nomatch>
     </Operation>
     <Operation Class="PatchOperationAdd">
+        
         <xpath>Defs/StyleCategoryDef[defName="Ferny_OldWorld"]/thingDefStyles</xpath>
         <value>
             <li>
@@ -1442,7 +1478,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="VFEE_Candelabra"]/label</xpath>
                     <value>
                         <label>electric candelabra</label>
@@ -1459,7 +1495,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationAdd">
-                    <success>Always</success>
+                    
                     <xpath>Defs/StyleCategoryDef[defName="Ferny_OldWorld"]/thingDefStyles</xpath>
                     <value>
                         <li>
@@ -1516,14 +1552,14 @@
                     </nomatch>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_TentWall"]/label</xpath>
                     <value>
                         <label>pressed cloth wall</label>
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <success>Always</success>
+                    
                     <xpath>Defs/ThingDef[defName="DankPyon_TentWall"]/costStuffCount</xpath>
                     <value>
                         <costStuffCount>10</costStuffCount>

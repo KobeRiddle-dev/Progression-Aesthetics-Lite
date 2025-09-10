@@ -31,7 +31,7 @@
           </value>
         </nomatch>
         <match Class="PatchOperationAdd">
-          <success>Always</success>
+          
           <xpath>/Defs/ThingDef[@Name="BDsSignBase"]/comps</xpath>
           <value>
             <li Class="Dark.Signs.CompProperties_Sign">
@@ -60,7 +60,7 @@
       <li Class="PatchOperationConditional">
         <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]/comps</xpath>
         <nomatch Class="PatchOperationAdd">
-          <success>Always</success>
+          
           <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]</xpath>
           <value>
             <comps>
@@ -73,7 +73,7 @@
           </value>
         </nomatch>
         <match Class="PatchOperationAdd">
-          <success>Always</success>
+          
           <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]/comps</xpath>
           <value>
             <li Class="Dark.Signs.CompProperties_Sign">
@@ -91,7 +91,7 @@
 
   <!-- Move to misc -->
   <Operation Class="PatchOperationReplace">
-    <success>Always</success>
+    
     <xpath>Defs/ThingDef[@Name="BDsSignBase"]/designationCategory</xpath>
     <value>
           <designationCategory>Misc</designationCategory>

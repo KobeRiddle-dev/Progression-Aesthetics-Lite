@@ -57,7 +57,7 @@
       <li Class="PatchOperationConditional">
         <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoSmallBase" or @Name="BMT_FossilInfoMedBase" or @Name="BMT_FossilInfoLargeBase"]/comps</xpath>
         <nomatch Class="PatchOperationAdd">
-          <success>Always</success>
+          
           <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoSmallBase" or @Name="BMT_FossilInfoMedBase" or @Name="BMT_FossilInfoLargeBase"]</xpath>
           <value>
             <comps>
@@ -70,7 +70,7 @@
           </value>
         </nomatch>
         <match Class="PatchOperationAdd">
-          <success>Always</success>
+          
           <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoSmallBase" or @Name="BMT_FossilInfoMedBase" or @Name="BMT_FossilInfoLargeBase"]/comps</xpath>
           <value>
             <li Class="Dark.Signs.CompProperties_Sign">
