@@ -36,13 +36,13 @@
 					<match Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Seat_RoyalArmchair"]/designationCategory</xpath>
 						<value>
-							<designationCategory/>
+							<designationCategory />
 						</value>
 					</match>
 					<nomatch Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Seat_RoyalArmchair"]</xpath>
 						<value>
-							<designationCategory/>
+							<designationCategory />
 						</value>
 					</nomatch>
 				</li>
@@ -102,13 +102,13 @@
 					<match Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Bed_Simple"]/designationCategory</xpath>
 						<value>
-							<designationCategory IsNull="True"/>
+							<designationCategory IsNull="True" />
 						</value>
 					</match>
 					<nomatch Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Bed_Simple"]</xpath>
 						<value>
-							<designationCategory IsNull="True"/>
+							<designationCategory IsNull="True" />
 						</value>
 					</nomatch>
 				</li>
@@ -117,13 +117,13 @@
 					<match Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="VFE_Bed_SimpleDouble"]/designationCategory</xpath>
 						<value>
-							<designationCategory IsNull="True"/>
+							<designationCategory IsNull="True" />
 						</value>
 					</match>
 					<nomatch Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="VFE_Bed_SimpleDouble"]</xpath>
 						<value>
-							<designationCategory IsNull="True"/>
+							<designationCategory IsNull="True" />
 						</value>
 					</nomatch>
 				</li>

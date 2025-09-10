@@ -3,55 +3,30 @@
         <li>/</li>
         <li>1.6</li>
         <li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mod Patches/Advanced Poly Beds</li>
+        <li IfModActive="eeg.Architecture">1.6/Mod Patches/Architecture of the Rim</li>
         <li IfModActive="3hstltd.signs">1.6/Mod Patches/Bill Signs</li>
         <li IfModActive="biomesteam.biomesfossils">1.6/Mod Patches/Biomes Fossils</li>
-        <li IfModActive="dankpyon.medieval.overhaul">1.6/Mod Patches/Medieval Overhaul</li>
-        <li IfModActive="eeg.Architecture">1.6/Mod Patches/Architecture of the Rim</li>
-        <li IfModActive="Dark.Signs">1.6/Mod Patches/Signs and Comments</li>
         <li IfModActive="Zylle.Clocks">1.6/Mod Patches/Clocks</li>
-        <li IfModActive="Rebuild.Cotr.DoorsAndCorners">1.6/Mod Patches/Rebuild DAC</li>
         <li IfModActive="Van.DACrypts">1.6/Mod Patches/Dark Ages CAT</li>
-        <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">1.6/Mod Patches/VFE Settlers</li>
-        <li IfModActive="Scurvyez.StevesWalls">1.6/Mod Patches/Steve's Walls</li>
-        <li IfModActive="scurvyez.stevesdoors">1.6/Mod Patches/Steve's Doors</li>
         <li IfModActive="DSP.HalituisAmaricanous">1.6/Mod Patches/Dune Style</li>
-        <li IfModActive="rimsenal.Sophian">1.6/Mod Patches/Rimsenal Sophian</li>
-        <li IfModActive="rimsenal.techist">1.6/Mod Patches/Rimsenal Techist</li>
-        <li IfModActive="lmgginspace.repairbed">1.6/Mod Patches/Repair Bed</li>
+        <!-- TODO: Gulden Biome -->
+        <li IfModActive="DankPyon.Medieval.Overhaul">1.6/Mod Patches/Medieval Overhaul</li>
+        <li IfModActive="Nightmare.Museums">1.6/Mod Patches/Museums</li>
+        <!-- TODO: Panels and Frames -->
+        <li IfModActive="Rebuild.Cotr.DoorsAndCorners">1.6/Mod Patches/Rebuild DAC</li>
+        <li IfModActive="lmgginspace.RepairBed">1.6/Mod Patches/Repair Bed</li>
+        <li IfModActive="Rimsenal.Sophian">1.6/Mod Patches/Rimsenal Sophian</li>
+        <li IfModActive="Rimsenal.techist">1.6/Mod Patches/Rimsenal Techist</li>
+        <li IfModActive="Dark.Signs">1.6/Mod Patches/Signs and Comments</li>
+        <li IfModActive="ScurvyEz.StevesDoors">1.6/Mod Patches/Steve's Doors</li>
+        <li IfModActive="ScurvyEz.StevesWalls">1.6/Mod Patches/Steve's Walls</li>
         <li IfModActive="VanillaExpanded.VfeCore">1.6/Mod Patches/VE Furniture</li>
-        <li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mod Patches/VE Furniture Additional Pack</li>
+        <li IfModActive="Farxmai2.VanillaFurnitureExpandedPack">1.6/Mod Patches/VE Furniture Additional Pack</li>
+        <li IfModActive="VanillaExpanded.VGeneticsE">1.6/Mod Patches/VE Genetics</li>
+        <li IfModActive="VanillaExpanded.VfeArchitect">1.6/Mod Patches/VFE Architect</li>
         <li IfModActive="VanillaExpanded.VfeArt">1.6/Mod Patches/VFE Art</li>
+        <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">1.6/Mod Patches/VFE Settlers</li>
         <li IfModActive="VanillaExpanded.VfeSpacer">1.6/Mod Patches/VFE Spacer</li>
         <li IfModActive="CiXwOw.VfeSpacerAddon">1.6/Mod Patches/VFE Spacer Addon</li>
-        <li IfModActive="VanillaExpanded.VfeArchitect">1.6/Mod Patches/VFE Architect</li>
-
-        <li IfModActive="eeg.architecture">1.6/Mod Patches/Architecture of the Rim</li>
-        <li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mod Patches/Advanced Poly Beds</li>
-        <li IfModActive="mewn.extra.signs">1.6/Mod Patches/MO Extra Signs</li>
-        <li IfModActive="oracle.miscellania">1.6/Mod Patches/Oracle's Miscellania</li>
-        <li IfModActive="VanillaExpanded.vgeneticse">1.6/Mod Patches/VE Genetics</li>
-        <li IfModActive="xmb.ancienturbanruins.mo">1.6/Mod Patches/Ancient Urban Ruins</li>
-        <li IfModActive="sarg.alphapropsparks">1.6/Mod Patches/AP Parks</li>
-        <li IfModActive="zylle.clocks">1.6/Mod Patches/Clocks</li>
-        <li IfModActive="rebuild.cotr.doorsandcorners">1.6/Mod Patches/Rebuild DAC</li>
-        <li IfModActive="Van.DACrypts">1.6/Mod Patches/Dark Ages CAT</li>
-        <li IfModActive="lunartika.os">1.6/Mod Patches/Office Supplies</li>
-        <li IfModActive="shp.rus">1.6/Mod Patches/Stationhouse Supplies</li>
-        <li IfModActive="VanillaExpanded.vfeart">1.6/Mod Patches/VFE Art</li>
-        <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">1.6/Mod Patches/VFE Settlers</li>
-        <li IfModActive="Scurvyez.StevesWalls">1.6/Mod Patches/Steve's Walls</li>
-        <li IfModActive="scurvyez.stevesdoors">1.6/Mod Patches/Steve's Doors</li>
-        <li IfModActive="DSP.HalituisAmaricanous">1.6/Mod Patches/Dune Style</li>
-        <li IfModActive="rimsenal.Sophian">1.6/Mod Patches/Rimsenal Sophian</li>
-        <li IfModActive="rimsenal.techist">1.6/Mod Patches/Rimsenal Techist</li>
-        <li IfModActive="finch.blood">1.6/Mod Patches/Rimfantasy Sanguine</li>
-        <li IfModActive="addie.housevanilla">1.6/Mod Patches/Rimfantasy Vanilla</li>
-        <li IfModActive="sierra.rf.housedoyle">1.6/Mod Patches/Rimfantasy Doyle</li>
-        <li IfModActive="cixwow.vfespaceraddon">1.6/Mod Patches/VFE Spacer Addon</li>
-        <li IfModActive="lmgginspace.repairbed">1.6/Mod Patches/Repair Bed</li>
-        <li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mod Patches/VE Furniture Additional Pack</li>
-        <li IfModActive="dsp.lun">1.6/Mod Patches/Diner Supplies</li>
-        <li IfModActive="icepickgma.invisibledisplaycase">1.6/Mod Patches/Invisible Display Case</li>
-        <li IfModActive="nightmare.museums">1.6/Mod Patches/Museums</li>
     </v1.6>
 </loadFolders>

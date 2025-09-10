@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
 	<Operation Class="PatchOperationFindMod">
@@ -6,9 +6,9 @@
 			<li>Medieval Overhaul</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-		<success>Normal</success>	
+			<success>Normal</success>
 			<operations>
-			<!-- ================================ Smelt Glass on MO Furnace ====================== -->
+				<!-- ================================ Smelt Glass on MO Furnace ====================== -->
 				<li Class="PatchOperationInsert">
 					<xpath>/Defs/ThingDef[defName="DankPyon_Furnace"]/recipes/li[1]</xpath>
 					<value>
@@ -16,6 +16,6 @@
 					</value>
 				</li>
 			</operations>
-		</match>	
+		</match>
 	</Operation>
 </Patch>

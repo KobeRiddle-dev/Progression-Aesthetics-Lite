@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Patch> 
-<!-- Rebuild glass integration -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>ReBuild: Doors and Corners</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			
-			<operations>
-				<li Class="PatchOperationReplace">
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Rebuild glass integration -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>ReBuild: Doors and Corners</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+
+            <operations>
+                <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[@Name="SW_GlitterGlassWallBase"]/costList</xpath>
                     <value>
                         <costList>
@@ -16,16 +16,13 @@
                             <RB_Glass>2</RB_Glass>
                         </costList>
                     </value>
-				</li>
-			</operations>
-		</match>	
-	</Operation>
+                </li>
+            </operations>
+        </match>
+    </Operation>
 
 
-
-
-
-<!-- Nerfing -->
+    <!-- Nerfing -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[@Name="SW_GlitterGlassWallBase"]/statBases/MaxHitPoints</xpath>
         <value>
@@ -34,7 +31,7 @@
     </Operation>
 
 
-<!-- Research -->
+    <!-- Research -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="GlitterGlassResearch"]/label</xpath>
         <value>
@@ -60,7 +57,7 @@
     </Operation>
 
 
-<!-- Renaming shit to make more sense -->
+    <!-- Renaming things to make more sense -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_NormalGlitterGlassWall"]/label</xpath>
         <value>
@@ -174,118 +171,111 @@
     </Operation>
 
 
-
-
-
-
-
-
-
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_RoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_RoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
             <label>(Alert) rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_BlueRoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>blue rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_BlueRoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
             <label>(Alert) blue rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_GreenRoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>green rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_GreenRoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
             <label>(Alert) green rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_YellowRoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>yellow rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_YellowRoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
             <label>(Alert) yellow rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_OrangeRoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>orange rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_OrangeRoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
             <label>(Alert) orange rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_RedRoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>red rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_RedRoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
             <label>(Alert) red rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_PinkRoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>pink rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_PinkRoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
             <label>(Alert) pink rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_PurpleRoundedGlitterGlassWall"]/label</xpath>
         <value>
             <label>purple rounded illuminated glass wall</label>
         </value>
     </Operation>
-    
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SW_PurpleRoundedAlertGlitterGlassWall"]/label</xpath>
         <value>
