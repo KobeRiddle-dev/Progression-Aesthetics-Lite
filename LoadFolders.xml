@@ -3,7 +3,6 @@
         <li>/</li>
         <li>1.6</li>
         <li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mod Patches/Advanced Poly Beds</li>
-        <li IfModActive="eeg.Architecture">1.6/Mod Patches/Architecture of the Rim</li>
         <li IfModActive="3hstltd.signs">1.6/Mod Patches/Bill Signs</li>
         <li IfModActive="biomesteam.biomesfossils">1.6/Mod Patches/Biomes Fossils</li>
         <li IfModActive="Zylle.Clocks">1.6/Mod Patches/Clocks</li>
